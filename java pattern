@@ -1,0 +1,27 @@
+package anjali;
+
+import java.util.Scanner;
+
+public class pattern {
+
+	public static void main(String[] args) {
+          Scanner scn= new Scanner(System.in);
+          int n= scn.nextInt() ;
+          int num=1;
+          int star=n-1;
+        
+          for(int row=1;  row<=n; row++) {
+        	  
+        	  for(int countnum=1; countnum<=num; countnum++) {
+        		  System.out.print(countnum);
+          }
+        	  for(int countstar=1; countstar<= star; countstar++) {
+        		  System.out.print("*");
+        	  }
+        	  System.out.println();
+        	 num++;
+        	 star--;
+          }
+	}
+
+}

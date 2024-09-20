@@ -1,0 +1,30 @@
+package anjali;
+
+import java.util.Scanner;
+
+public class pattern {
+
+	public static void main(String[] args) {
+	
+		Scanner scn = new Scanner(System.in);
+		int n= scn.nextInt();
+		int star= 1;
+		int row= 2*n-1;
+		while(row<= 2*n-1);
+		int counterstar =1;
+		while(counterstar<= star) {
+			System.out.print("*");
+			star++;
+		}
+		if (row<=n-1) {
+			star++;
+		}else {
+			star--;
+		}
+		System.out.println();
+		row++;
+		star++;
+	}
+}
+
+

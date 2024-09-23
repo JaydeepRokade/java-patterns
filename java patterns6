@@ -27,5 +27,4 @@ public class patter {
 			star=star+2;
 			spaces--;
 		}
-	}
-}
+	

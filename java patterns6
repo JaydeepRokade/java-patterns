@@ -2,7 +2,7 @@ package anajli;
 
 import java.util.Scanner;
 
-public class patter15 {
+public class patter {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

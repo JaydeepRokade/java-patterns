@@ -1,0 +1,32 @@
+package anjali;
+
+import java.util.Scanner;
+
+public class pattern16 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scn= new Scanner(System.in);
+		int n= scn.nextInt();
+		int star= 1;
+		int spaces= n-1;
+		for(int row=1; row<= n; row++) {
+			int count= row;
+			for(int countspaces= 1; countspaces<= spaces; countspaces++) {
+				System.out.print("\t");
+			}
+			for(int countstar= 1; countstar<= star; countstar++) {
+				System.out.print(count+"\t");
+				if(countstar<= row-1) {
+					count++;
+				} else {
+					count--;
+				}
+
+			}
+			System.out.println();
+			star=star+2;
+			spaces--;
+			
+		}
+	

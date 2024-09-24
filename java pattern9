@@ -29,4 +29,5 @@ public class pattern16 {
 			spaces--;
 			
 		}
-	
+	}
+}

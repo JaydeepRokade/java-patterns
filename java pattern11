@@ -29,6 +29,8 @@ public class trianglepattern1 {
 		star++;
 		row++;
 	}
+}
+}
 
 
 	

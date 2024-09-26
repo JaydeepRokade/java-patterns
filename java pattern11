@@ -2,7 +2,7 @@ package project11;
 
 import java.util.Scanner;
 
-public class trianglepattern1 {
+public class triangle {
 
 	public static void main(String[] args) {
 

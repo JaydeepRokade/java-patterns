@@ -28,6 +28,7 @@ public class trianglepattern1 {
 		space--;
 		star++;
 		row++;
-				
+	}
+
 
 	

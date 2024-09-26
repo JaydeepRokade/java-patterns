@@ -1,0 +1,33 @@
+package project2practice;
+
+import java.util.Scanner;
+
+public class trianglepattern1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scn= new Scanner(System.in);
+		int n= scn.nextInt();
+		int star= 1;
+		int row= 1;
+		int space= n-1;
+		while(row<= n) {
+			int countspace= 1;
+		while(countspace<= space) {
+			System.out.print(" ");
+			countspace++;
+			
+		}
+		int countstar= 1;
+		while(countstar<= star) {
+			System.out.print("*");
+			System.out.print(" ");
+			countstar++;
+		}
+		System.out.println();
+		space--;
+		star++;
+		row++;
+				
+
+	

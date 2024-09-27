@@ -14,5 +14,8 @@ public class horizontaltriangleforloop {
 				System.out.print("*");
 			}
 			System.out.println();
+}
+}
+}
 					
 			
